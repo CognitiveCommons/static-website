@@ -375,8 +375,6 @@ export default function Home() {
           <div className="inline-block glass bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 shadow-elevation-4 text-left">
             <ul className="space-y-3 text-lg text-gray-100 mb-6">
               <li>Join the founding list for updates and early invites.</li>
-              <li>Partner with us for the online course launch, then pilot cohorts and workflow tests as we scale.</li>
-              <li>Contribute expertise or explore board participation.</li>
             </ul>
             <p className="text-lg mb-2">
               Connect with us at{" "}
@@ -387,8 +385,6 @@ export default function Home() {
                 hello@cognitivecommons.ca
               </a>
             </p>
-            <p className="text-sm text-gray-200">We will never ask for sensitive data by email. No spam.</p>
-            <p className="text-sm text-gray-200">Updates coming soon. Work is underway now.</p>
           </div>
         </div>
       </section>
