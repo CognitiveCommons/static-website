@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 - Added an `initiallyVisible` option to the `FadeIn` animation to keep hero content visible before scroll triggers.
 
 ### Changed
-- Updated the hero headline to a story-driven rallying line that emphasizes helping small teams finish what matters.
+- Updated the hero headline to "We turn effort into outcomes for small teams" to emphasize practical delivery.
 - Reworked hero calls to action to direct visitors to the founding list and the updated "What's Coming" section.
 - Replaced the old capability-gap framing with a "The Gap" narrative centered on administrative friction and missed opportunities.
 - Converted the gap details into a two-column layout with narrative context and four specific pain points.
@@ -17,8 +17,8 @@ All notable changes to this project will be documented in this file.
 - Expanded "Our Progress" status lists to include governance, partnership, and funding milestones.
 - Updated the "Get Involved" section to a three-point participation list with clearer engagement paths.
 - Aligned header navigation labels and anchors to the new section structure.
-- Updated site metadata titles and Open Graph summary to align with the story-driven headline and outcomes focus.
-- Updated the footer tagline to match the new hero headline.
+- Updated site metadata titles and Open Graph summary to align with the effort-to-outcomes headline.
+- Updated the footer tagline to echo the effort-to-outcomes framing for small teams.
 - Removed Atlantic Canada references from the hero badge, mission statement, partner delivery card, and metadata description.
 
 ### Fixed
