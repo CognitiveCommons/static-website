@@ -20,6 +20,7 @@ All notable changes to this project will be documented in this file.
 - Updated site metadata titles and Open Graph summary to align with the effort-to-outcomes headline.
 - Updated the footer tagline to echo the effort-to-outcomes framing for small teams.
 - Removed Atlantic Canada references from the hero badge, mission statement, partner delivery card, and metadata description.
+- Removed extra participation bullets and email notice lines from the Get Involved section to keep the call to action focused.
 
 ### Fixed
 - Suppressed root layout hydration warnings to prevent client-side mismatch notices.
