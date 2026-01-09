@@ -17,6 +17,7 @@ interface FadeInProps {
   delay?: number;
   duration?: number;
   direction?: 'up' | 'down' | 'left' | 'right' | 'none';
+  initiallyVisible?: boolean;
   className?: string;
 }
 
@@ -25,6 +26,7 @@ export function FadeIn({
   delay = 0,
   duration = 0.5,
   direction = 'up',
+  initiallyVisible = false,
   className = '',
 }: FadeInProps) {
   const ref = useRef(null);
@@ -41,14 +43,16 @@ export function FadeIn({
   const offset = directionOffset[direction];
 
   const initial = {
-    opacity: 0,
-    ...offset,
+    opacity: initiallyVisible ? 1 : 0,
+    ...(initiallyVisible ? { x: 0, y: 0 } : offset),
   };
 
+  const isVisible = initiallyVisible || isInView;
+
   const animate = {
-    opacity: isInView ? 1 : 0,
-    x: isInView ? 0 : (offset.x ?? 0),
-    y: isInView ? 0 : (offset.y ?? 0),
+    opacity: isVisible ? 1 : 0,
+    x: isVisible ? 0 : (offset.x ?? 0),
+    y: isVisible ? 0 : (offset.y ?? 0),
   };
 
   return (

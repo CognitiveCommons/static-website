@@ -11,8 +11,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "CognitiveCommons | Making Technology Work for All of Canada",
-  description: "For your business. Your community. Your classroom. Your future. Building Canadian capability in technology—from Main Street to public services, classrooms to communities.",
+  title: "CognitiveCommons | We Help Small Teams Deliver Outcomes",
+  description:
+    "We help SMEs and social enterprises complete high-stakes administrative work fast, safely, and with proof. Starting in Atlantic Canada.",
+  keywords: [
+    "public-interest tech",
+    "administrative workflows",
+    "SME support",
+    "social enterprise",
+    "measurable outcomes",
+  ],
+  openGraph: {
+    title: "CognitiveCommons | We Help Small Teams Deliver Outcomes",
+    description:
+      "Helping small teams deliver outcomes with privacy, accessibility, and proof built in.",
+    type: "website",
+  },
   icons: {
     icon: [
       { url: "/images/logos/favicons/cc_symbol_black_16.png", sizes: "16x16", type: "image/png" },
@@ -36,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.variable} antialiased`} suppressHydrationWarning>
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-S5L49TG1ZJ"

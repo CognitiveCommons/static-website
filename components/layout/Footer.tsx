@@ -26,7 +26,7 @@ export function Footer() {
 
           {/* Tagline with gradient */}
           <p className="text-center text-gray-600 dark:text-gray-300 max-w-md font-medium">
-            Making Technology Work for <span className="text-gradient-canadian">All of Canada</span>
+            We help <span className="text-gradient-canadian">small teams</span> deliver outcomes
           </p>
 
           {/* Made in Canada Badge */}

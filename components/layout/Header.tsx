@@ -5,9 +5,11 @@ import Image from "next/image";
 import { MapleLeaf } from "@/components/canadian/MapleLeaf";
 
 const navigation = [
-  { name: "The Gap", href: "#divide" },
-  { name: "How We Work", href: "#belief" },
-  { name: "Our Progress", href: "#journey" },
+  { name: "The Gap", href: "#gap" },
+  { name: "What We Do", href: "#what" },
+  { name: "How We Work", href: "#how" },
+  { name: "What's Coming", href: "#coming" },
+  { name: "Our Progress", href: "#progress" },
   { name: "Get Involved", href: "#join" },
 ];
 
@@ -28,7 +30,7 @@ export function Header() {
           <Link href="/" className="flex items-center gap-2 flex-shrink-0 hover:opacity-90 transition-all duration-300">
             <Image
               src="/images/logos/CC_logo_ultrasmooth_black_on_transparent.png"
-              alt="CognitiveCommons - Building Canada's Technology Commons"
+              alt="CognitiveCommons - Public-interest technology"
               width={168}
               height={60}
               className="h-12 w-auto logo-light"
@@ -36,7 +38,7 @@ export function Header() {
             />
             <Image
               src="/images/logos/CC_logo_ultrasmooth_white_on_transparent.png"
-              alt="CognitiveCommons - Building Canada's Technology Commons"
+              alt="CognitiveCommons - Public-interest technology"
               width={168}
               height={60}
               className="h-12 w-auto logo-dark"
