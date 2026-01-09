@@ -26,8 +26,7 @@ export function Footer() {
 
           {/* Tagline with gradient */}
           <p className="text-center text-gray-600 dark:text-gray-300 max-w-md font-medium">
-            Nothing binds a people like a good story; we help{" "}
-            <span className="text-gradient-canadian">small teams</span> finish what matters
+            Effort into outcomes for <span className="text-gradient-canadian">small teams</span>
           </p>
 
           {/* Made in Canada Badge */}
