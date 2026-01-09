@@ -42,20 +42,22 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-8 py-20 text-center relative z-10">
           <FadeIn delay={0.1} direction="down" initiallyVisible>
             <div className="inline-block px-4 py-2 mb-6 glass dark:glass backdrop-blur-sm bg-aurora-purple/10 dark:bg-aurora-purple/20 text-aurora-purple dark:text-aurora-purple border border-aurora-purple/30 text-sm font-medium rounded-full">
-              Day One: building what works, starting in Atlantic Canada.
+              Day One: building what works for small teams.
             </div>
           </FadeIn>
 
           <FadeIn delay={0.2} initiallyVisible>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-canadian-snow mb-6 leading-tight">
-              <span className="text-gradient-canadian">We help small teams deliver outcomes</span>
+              <span className="text-gradient-canadian">
+                Nothing binds a people like a good story; we help small teams finish what matters
+              </span>
             </h1>
           </FadeIn>
 
           <FadeIn delay={0.3} initiallyVisible>
             <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
               A public-interest technology organization helping under-resourced SMEs and social enterprises finish high-stakes
-              administrative work fast, safely, and with proof. We start in Atlantic Canada and scale what works through partners.
+              administrative work fast, safely, and with proof.
             </p>
           </FadeIn>
 
@@ -299,7 +301,7 @@ export default function Home() {
             <div className="p-6 rounded-xl bg-white/80 dark:glass dark:bg-northern-surface/60 border border-gray-200 dark:border-canadian-maple/20">
               <h3 className="font-semibold text-gray-900 dark:text-canadian-snow mb-2">Partner-led delivery</h3>
               <p className="text-sm text-gray-600 dark:text-gray-300">
-                Start in Atlantic Canada, expand only as results prove out.
+                Start focused, expand only as results prove out.
               </p>
             </div>
           </div>

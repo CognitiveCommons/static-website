@@ -11,9 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "CognitiveCommons | We Help Small Teams Deliver Outcomes",
+  title: "CognitiveCommons | A Good Story That Helps Small Teams Finish What Matters",
   description:
-    "We help SMEs and social enterprises complete high-stakes administrative work fast, safely, and with proof. Starting in Atlantic Canada.",
+    "We help SMEs and social enterprises complete high-stakes administrative work fast, safely, and with proof.",
   keywords: [
     "public-interest tech",
     "administrative workflows",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     "measurable outcomes",
   ],
   openGraph: {
-    title: "CognitiveCommons | We Help Small Teams Deliver Outcomes",
+    title: "CognitiveCommons | A Good Story That Helps Small Teams Finish What Matters",
     description:
-      "Helping small teams deliver outcomes with privacy, accessibility, and proof built in.",
+      "Helping small teams finish what matters with privacy, accessibility, and proof built in.",
     type: "website",
   },
   icons: {
